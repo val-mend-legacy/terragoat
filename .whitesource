@@ -1,3 +1,11 @@
 {
-  "settingsInheritedFrom": "val-mend-legacy/whitesource-config@main"
+  "settingsInheritedFrom": "val-mend-legacy/whitesource-config@main",
+ "scanSettings": {
+    "enableIaC": true,
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "useMendCheckNames": true,
+    "iacCheckRunConclusionLevel": "failure"
+  }
 }
